@@ -16,6 +16,8 @@ export class MyComponentComponent implements OnInit {
   ngOnInit() {
   }
   
+RandomTest = {};
+
   programmeTitle = {};
 
 }
