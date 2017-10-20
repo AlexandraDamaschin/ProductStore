@@ -15,6 +15,7 @@ export class MyComponentComponent implements OnInit {
 
   ngOnInit() {
   }
+  
   programmeTitle = {};
 
 }
