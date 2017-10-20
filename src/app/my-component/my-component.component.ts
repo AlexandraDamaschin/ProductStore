@@ -10,14 +10,11 @@ import { DataService } from '../data.service';
 export class MyComponentComponent implements OnInit {
 
   constructor(private dataService: DataService) {
-    // this.getProgrammeTitle();
+
    }
 
   ngOnInit() {
   }
   programmeTitle = {};
 
-  // getProgrammeTitle() {
-  //   this.dataService.getProgrammeTitle().subscribe(data => this.programmeTitle = data);
-  // }
 }
